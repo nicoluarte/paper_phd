@@ -32,6 +32,7 @@ cite:vazCoupledRippleOscillations2019
 ** synchronization
 ** shift predictor (26, 27)
 ** shuffling procedure
+** paired associates memory task
 * EEG related concepts
 ** neural representation
 ** ripples
