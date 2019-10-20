@@ -1,0 +1,52 @@
+* Cerebral structures
+** anterior temporal lobe
+cite:bonnerWhereAnteriorTemporal2013
+** middle temporal gyrus
+cite:martinSemanticMemoryBrain2001
+** primary somatosensory cortex
+https://www.neuroscientificallychallenged.com/blog/know-your-brain-primary-somatosensory-cortex
+** temporal association cortex
+http://www.indiana.edu/~p1013447/dictionary/assn_cor.htm
+* Memory related concepts
+** memory retrieval
+cite:franklandNeurobiologicalFoundationMemory2019
+** episodic memory
+cite:wheelerEpisodicMemory2009
+** memory consolidation
+cite:squireMemoryConsolidation2015
+** memory replay
+* Statistic related concepts
+** t-test
+cite:ugoniTEST1995
+** cross-correlation
+cite:kohnAutocorrelationCrossCorrelationMethods2006
+** shift predictor (26, 27)
+** permutation test corrected for multiple comparisons over time
+cite:helwigPermutationTests
+** conditional probability
+cite:ConditionalProbability
+* Paper related variable definitions
+cite:vazCoupledRippleOscillations2019
+** conditional probability
+** feature vector
+** synchronization
+** shift predictor (26, 27)
+** shuffling procedure
+* EEG related concepts
+** neural representation
+** ripples
+** spectral power
+** distributed pattern of spectral power
+** band power
+** volumen conduction
+** coupled ripple oscillations
+** bipolar reference
+** phase differences
+** lag phase
+** ripple band
+** temporal region of interest
+* Importante phrases
+** coupled ripples may be relevant for succesful memory retrieval
+** coupled ripples may reinstantiate neural representations of memory from respective encoding periods
+** coupled ripples may constitutea neural mechanism for actively retrieving memory representations in the human brain
+
