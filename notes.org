@@ -34,14 +34,21 @@ cite:vazCoupledRippleOscillations2019
 ** shuffling procedure
 ** paired associates memory task
 * EEG related concepts
+** bandpass filter
+- Cuts a band defined by a low and a high
 ** neural representation
 ** ripples
 ** spectral power
 ** distributed pattern of spectral power
 ** band power
 ** volumen conduction
+- Volume conduction is the term used to describe the effects of recording
+  electrical potentials at a distance from their source generator. Is the noise
+  caused by electrical spread
 ** coupled ripple oscillations
 ** bipolar reference
+- Mainly used to augment signal to noise ratio. Common noise between electrodes
+  is discarded, and only signal remains (that which is not common)
 ** phase differences
 ** lag phase
 ** ripple band

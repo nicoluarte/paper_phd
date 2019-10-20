@@ -25,11 +25,44 @@ theme: "Antibes"
 
 ## Tarea
 
+- Aprender nuevas asociaciones entre pares de palabras ('encoding phase')
+- Dada una palabra del par, debían decir el par correspondiente ('retrieval period'), mediante la voz
+- Dos tipos de tareas muy similares
+- 3.9 sesiones por participante, 60, 100 o 150 pares de palabras
+
+![Tarea](/home/nicoluarte/paper_phd/images/task.png)
+
 ## Mediciones
 
-## Operacionalización de variables
+- Registros intracraneales ('iEEG')
+    * Tasa de muestreo: [1000, 2000]Hz
+    * 29.8 ± 2.5 puntos de registro (aplicados al estudio)
+- Localización
+    * Lóbulo temporal medial ('MTL')
+    * Lóbulo temporal anterior ('ATL')
+    * Giro temporal medio ('MTG')
+    * Control: corteza somatosensorial (menos conectividad hipocampal)
+    
+![Densidad electrodos](/home/nicoluarte/paper_phd/images/eeg_recordings.png){ width=250px**
+    
+## Operacionalización de variables (1)
+- Ripples:
+    * Filtro paso banda (80-120 Hz)
+    * Butterworth filter
+    * Hilbert transform
+    * Duración
+    * Amplitud
+    * Definición final
+    * Espacialmente definidos
+    
+## Operacionalización de variables (1)
+- Coupled ripples
 
-## Estadística
+## Estadística (1)
+- Probabilidades [ripples, coupled ripples]
+
+## Estadística (2)
+- Reinstatement
 
 # Resultados
 
