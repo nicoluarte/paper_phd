@@ -80,7 +80,35 @@ theme: "Antibes"
 - Probabilidades [ripples, coupled ripples]
 
 ## Estadística (2)
-- Reinstatement
+- Probabilidad condicional
+    * $p(electrodo cortical | electrodo MTL) = p(m, c) / p(m)$
+    * $p(electrodo MTL | electrodo cortical) = p(m, c) / p(c)$
+   
+    Con esto se determina que el incremento de 'coupled ripples' no se debe al
+    aumento de probabilidad por el hecho de que el electrodo simplemente tenga
+    mas ripples en total.
+    
+## Estadística (3)
+- Reinstanciamiento ('reinstatement')
+    * Vector de caractrísticas codificación ('encoding')
+    $E_{i} = [Z_{1, 1}(i) \ldots Z_{1, F}(i) \ldots Z_{L, F}(i)]$
+    * Vector de caractrísticas evocación ('retrieval')
+    $E_{j} = [Z_{1, 1}(j) \ldots Z_{1, F}(j) \ldots Z_{L, F}(j)]$
+    
+    <span style="font-family:Papyrus; font-size:4em;">
+    Los sub-índices representan número de electrodo y número de la banda de
+    frecuencia[^1], respectivamente, en unidad de puntuación estandar.
+    Se calculó la similitud de coseno para cada época del par de entradas en el
+    vector. 
+    </span>
+    
+    $C_{n}(i, j) = \frac{E_{i} \cdot R_{j}}{||E_{i}||||R_{j}||}$
+
+- Test de permutaciones (test de t) para diferencias entre correctos e incorrectos
+    
+[^1]: [delta(1-3), theta(3-8), alpha(8-12), beta(12-30), gamma(30-80),
+    ripple band(80-120)]Hz
+    
 
 # Resultados
 
