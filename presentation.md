@@ -43,17 +43,18 @@ theme: "Antibes"
     * Giro temporal medio ('MTG')
     * Control: corteza somatosensorial (menos conectividad hipocampal)
     
-![Densidad electrodos](/home/nicoluarte/paper_phd/images/eeg_recordings.png){ width=250px**
+![Densidad electrodos](/home/nicoluarte/paper_phd/images/eeg_recordings.png){ width=250px }
     
 ## Operacionalización de variables (1)
 - Ripples:
     * Filtro paso banda (80-120 Hz)
-    * Butterworth filter
-    * Hilbert transform
-    * Duración
-    * Amplitud
-    * Definición final
-    * Espacialmente definidos
+        * Butterworth filter
+    * 2 $\sigma$ a 3 $\sigma$
+        * Hilbert transform
+    * Duración $\ge$ 25ms
+    * Se unieron 'ripples' con distancia < 15ms
+    * Duración: diferencia entre fin e inicio
+    * [@zhangElectrophysiologicalMechanismsHuman2018] 
     
 ## Operacionalización de variables (1)
 - Coupled ripples

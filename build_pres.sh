@@ -1,2 +1,7 @@
 #!/bin/bash
-pandoc presentation.md -t beamer -o presentation.pdf
+while :
+do
+  sleep 5
+  pandoc presentation.md -t beamer -o presentation.pdf
+done
+
