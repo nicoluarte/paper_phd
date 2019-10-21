@@ -3,7 +3,7 @@ title: "Coupled ripple oscillations between the medial temporal lobe and neocort
 author: Nicolás Luarte
 date: 22 de Octubre
 output: 
-beamer_presentation:
+    beamer_presentation:
 theme: "Antibes"
 ---
 
@@ -48,18 +48,35 @@ theme: "Antibes"
 ## Operacionalización de variables (1)
 - Ripples:
     * Filtro paso banda (80-120 Hz)
-        * Butterworth filter
+    * Butterworth filter
     * 2 $\sigma$ a 3 $\sigma$
-        * Hilbert transform
+    * Hilbert transform
     * Duración $\ge$ 25ms
     * Se unieron 'ripples' con distancia < 15ms
     * Duración: diferencia entre fin e inicio
-    * [@zhangElectrophysiologicalMechanismsHuman2018] 
     
-## Operacionalización de variables (1)
-- Coupled ripples
+## Operacionalización de variables (2)
+- Coupled ripples:
+    * Ripples sincronizados
+    * Correlación cruzada [ATL, Primary Cortex] y MTL
+    * 'Shift predictor'[^bignote]
+    
+![Coupled ripples](/home/nicoluarte/paper_phd/images/coupled_ripples.png){ width=250px }
+       
+[^bignote]: Se considera una línea base por azar. Se crea mediante correlación cruzada entre un trial dado y el resto. Coincidencias por segundo por par de electrodos.
+
+## Operacionalización de las variables (3)
+- Sincronización
+    * Sumatoria ventana $\pm$ 50ms / área por chance
+
+![Sincronización](/home/nicoluarte/paper_phd/images/sinchronization.png){ width=350px }
 
 ## Estadística (1)
+- Unión ('coupling') áreas corteza temporal vs corteza primaria
+    * Prueba de t pareada, compara versus distribución por 'chance'
+    
+- Unión ('coupling') áreas cerebrales por par de electrodos
+    * Prueba de t pareada, p < 0.05 = 'coupled electrode'
 - Probabilidades [ripples, coupled ripples]
 
 ## Estadística (2)
