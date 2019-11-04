@@ -1,0 +1,111 @@
+* Slide 1
+- el paper que me tocó presentar, evalúa un posible mecanismo responsable de la
+  recuperación de memoria
+
+* Slide modelos de memoria
+- Antes de iniciar creo que es relevante situar el artículo, al menos en lo que
+  respecta al modelo de memoria sobre el que se basan.
+- En este se suponen 3 partes, codificación, almacenaje y recuperación.
+- Adicionalmente, se basan en un modelo representacionalista, en dónde el
+  cerebro opera generando representaciones mediante modificación de la propia
+  estructura
+
+* Slide recuperación de memoria y 'ripples'
+- La hipótesis central bajo la cual se artícula el paper es que existe un
+  mecanismo, constituido por 'ripples' que explicare en seguida, los cuales
+  estarían involucrados en la recuperación de memoria. Adicionalmente, sería lo
+  acoplado de estos riples entre diferentes estructuras.
+
+* Métodos
+- La tarea en que se basa el artículo, brevemente, consta de lo siguiente
+
+* Mediciones
+- Explicar las mediciones
+
+* Operacinalización de variables
+- Cómo mencioné anteriormente los ripples son parte fundamental del mecanismo
+  propuesto, por lo mismo es importante destacar como fueron detectados.
+- Primeramente, se realizó un filtro paso banda de entre 80-120Hz
+- Luego, obtuvieron la amplitud instantanea en esa banda de frecuencia
+- y se seleccionaron aquellos eventos que estuvieran por sobre las 2
+  desviaciones estandar de la amplitud media hasta 3 desviaciones estandar
+- con una duración mayor igaul a 25 milisegundos
+- finalmente, si los eventos estaban a menos de 15ms entre uno y otro se
+  consideraban como uno solo
+
+* Operacinalización de variables 2
+- Los ripples acoplados es, básicamente, encontrar dos eventos de ripples que se
+  encuentren sincronizados entre una área y otra
+- Para detectar si esto efectivamente sucedia, realizaron una correlación
+  cruzadas de los eventos de ripple entre las aŕeas: lobulo temporal anterior,
+  corteza primaria (como control, por la baja conectividad hipocampal) y la
+  corteza temporal medial
+- Se creo un 'shift predictor', que indica la línea base, es decir, dónde un
+  nivel de correlación se consideraba por sobre o por debajo del azar
+
+* Operacinalización de variables 3
+- Finalmente, para determinar una metrica de sincronización se considero el
+  ratio entre el aŕea de las coincidencias y el área por chance 
+
+* Acoplamiento
+- Para determinar si un par dado de electrodos estaba acoplado, se realizaron
+  test de t para ver si la diferencia entre las áreas mencionadas era
+  estadísticamente significativa
+
+* Acoplamiento 2
+- Adicionalmente, ya que, si el los ripples aumentarán en un área, sería de
+  esperar que las coincidencias aumentaran, sin esto significar una verdadera
+  sincronizadad
+- Así, calcularon las probabilidades condicionales, para ambos lados
+- Pudiendo acotar que la sincronizadad se gatillaba por un evento de ripple en
+  una u otra área.
+
+* Re-instanciamiento
+- El re-instancimiento, es básicamente, un evento en dónde una área cerebral
+  genera el mismo patrón de actividad recuperando memoria que cuando codifico la
+  memoria
+- Para operacionalizar esto, construyeron un vector de característica, dónde se
+  consideraba para cada electrodo y para cada banda de frecuencia la puntuación
+  estandar de su amplitud.
+- Para medir el grado en que existio reinstanciamiento se midio la similitud de
+  coseno (una medida de distancia) entre los vector generados para cada fase de
+  memoria
+- Nuevamente, se utilizaron test de t para determinar si existian diferencias en
+  estos vectores cuando la recuperación era o no correcta
+
+* Resultados coupled ripples
+- Hay asociación temporal entre un evento de ripple en el MTL con la corteza
+  cercana
+- Esa asociación no esta presente en el control
+- Explicar %
+
+* Coupled ripples y tarea experimental
+- Al parecer el acoplamiento de las estructuras es mayor cuando los trials son
+  correctos, apoyando la idea de que este sería un mecanismo suficiente para
+  generar recuperación
+- Adicional a lo que mencioné que realizaron para descartar que este efecto no
+  se debiera a sincronización, también descartaron que fueses un efecto por
+  conducción de volumen, utilizando un referencia bipolar y dada la distribución
+  cuasi-uniforme de las diferencias de fase, esperando lag 0~ si fueses por
+  conducción por volumen
+
+* Sincronización
+- Mostrar resultados
+
+* Sincronización y tarea experimental
+- Mostrar resultados
+
+* Los coupled ripples pueden re-instanciar ...
+- Efectivamente parece ser el caso que existe re-instanciamiento (mostar
+  pruebas)
+- Este reinstanciamiento sucede dado un ripple, al no estar indexado a un ripple
+  pierde su efecto
+- Los vectores son distintos para cada 'memoria' de pares
+
+* Conclusiones
+- Señalar
+
+
+
+
+
