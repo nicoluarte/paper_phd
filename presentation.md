@@ -1,6 +1,6 @@
 ---
 title: "Coupled ripple oscillations between the medial temporal lobe and neocortex retrieve human memory"
-author: Nicolás Luarte
+author: Alex P. Vaz, Sara K. Inati, Nicolas Brunel, Kareem A. Zaghoul
 date: 22 de Octubre
 output: 
     beamer_presentation:
@@ -8,11 +8,10 @@ theme: "Boadilla"
 ---
 # Introducción
 
-## Modelos de memoria
-- Encoding, storage, retrieval
-- Modelo repesentacionalista, modifación de la estructura cerebral para representar
-
-![Engram](/home/nicoluarte/paper_phd/images/engram.png){ width=350px }
+## Datos previos
+- Science (neuroscience) Journal, 2019
+- Trabajo previo en memory encoding
+- Fenomeno previamente estudiado, principalmente, en consolidación de memoria
 
 ## Recuperación de memoria y 'ripples'
 
@@ -83,7 +82,7 @@ theme: "Boadilla"
     
 - Unión ('coupling') áreas cerebrales por par de electrodos
     * Prueba de t pareada, p < 0.05 = 'coupled electrode'
-
+    
 ## Coupling (2)
 - Probabilidad condicional
     * $p(electrodo cortical | electrodo MTL) = p(m, c) / p(m)$
@@ -143,10 +142,11 @@ theme: "Boadilla"
     )]*
 
 # Conclusiones
+
+## Conclusiones
 - Existe un proceso activo para 'recuperar' memorias
 - Se basa en el reinstanciamento de patrones previamente realizados en la corteza (que representó dicha memoria)
 - Parece ser que un eje relevante de esto son los 'coupled ripples', esto es, sincronización entre MTL y corteza temporal de asociación en la banda 80-120Hz
-- Aporta evidencia, a qué codificación y recuperación son procesos discretos
 - ¿Que tan bien se puede caracterizar la representación de una memoria? ¿A qué punto es válido?
 
 ![Coupled ripples](/home/nicoluarte/paper_phd/images/paired.png){ width=170px }
